@@ -1,0 +1,131 @@
+@media (min-width: 641px) and (max-width: 1200px) and (orientation:portrait){
+
+	/*////////////////////////////////////////////////////РАЗМЕРЫ ШРИФТОВ///////////////////////////////////////////////////////////////*/
+
+	.title1 {                 /*Подчеркнутый заголовок*/
+		font-size: 1.125rem;
+	}
+ 
+	.title2 {                 /*НЕ Подчеркнутый заголовок*/
+		font-size: 1.125rem;
+	}
+
+	.trend__card__title {
+		font-size: 1.062rem;
+	}
+
+	.article__left__title {
+		font-size: 1.062rem;
+	}
+
+	.shop__card__title {
+		font-size: 1.25rem ;
+	}
+
+
+	/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	.header {       /* ----------Задаем фон хедеру------*/
+
+		min-height: 613px;
+		background-image: url('../images/banner-bg-tablet.jpg');
+	}
+
+	.header__top {            /*--------ХЕДЕР---------*/
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin-top: 40px;
+		padding-left: var(--margin-left-tablet);
+		padding-right: var(--margin-left-tablet);
+		z-index: 2;
+	}
+
+	.logo {
+		min-width: 130px;
+		height: auto;
+		flex-shrink: 1;
+	}
+
+		.header__nav {          /* ----------Скрываем навигационное меню------*/
+		display: none;
+	}
+
+		.header__text {       /* ----------Задаем свойства заголовку хедера------*/
+		color: white;
+		font-family: OpenSans_Bold;
+		font-style: normal;
+		font-size: 2.5rem;
+		margin-top: auto;
+		margin-bottom: auto;
+		padding-left: 10.5vw;
+		padding-right: 10.5vw;
+		text-align: center;
+		text-transform: uppercase;
+		z-index: 2;
+	}
+
+	.trends__cards__box {   /*---Делаем карточки Тренды в сетку по 2-----*/
+		display: flex;
+	} 
+
+	.trend__card1 {
+		flex-basis: 25%;
+
+	}
+
+	.trend__card2 {
+		flex-basis: 25%;
+
+	}
+
+	.trend__card3 {
+		flex-basis: 25%;
+
+	}
+
+	.trend__card4 {
+		flex-basis: 25%;
+
+	}
+
+	.main {					/*-----Задаем расположение левой и правой колонки в 2 стобца-----*/
+		display: flex;
+		margin-left: var(--margin-left-tablet);
+		margin-right: var(--margin-right-tablet);
+		justify-content: space-between;
+		margin-top: 50px;
+		gap: 35px;
+	}
+
+	.main__left {
+		flex:  auto;
+	}
+
+	.main__right {
+		flex-basis: 30%;
+		flex-shrink: 0;
+	}
+
+	.shop {           /*-----Магазин товаров исправляем оступы*/
+		margin-left: var(--margin-left-tablet);
+		margin-right: var(--margin-right-tablet);
+	}
+
+	.shop__cards {    /*-----Задаем расположение карточек товаров в столбец-----*/
+		display: flex;
+		flex-wrap: wrap;
+		gap:  8%;
+		justify-content: space-around;
+	}
+
+	.shop__card {
+		width: 38%; 
+		height: auto;
+	}
+
+	.shop__card:nth-child(n+3) { /*-----Задаем верхний отступ для 3-го и далее товаров-----*/
+      margin-top: 30px;
+	}
+
+}

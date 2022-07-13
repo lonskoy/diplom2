@@ -1,0 +1,188 @@
+@media (min-width: 1201px) {
+
+	/*////////////////////////////////////////////////////РАЗМЕРЫ ШРИФТОВ///////////////////////////////////////////////////////////////*/
+
+	.title1 {                 /*Подчеркнутый заголовок*/
+		font-size: 1.25rem;
+	}
+ 
+	.title2 {                 /*НЕ Подчеркнутый заголовок*/
+		font-size: 1.25rem;
+	}
+
+	.nd__card__title {
+		font-size: 1.25rem;
+	}
+
+	.article__left__title {
+		font-size: 1.25rem;
+	}
+
+	.left__data {
+		font-size: 0.75rem;
+	}
+
+	.shop__card__title {
+		font-size: 1.25rem ;
+	}
+
+
+
+	/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	/* ////////////////////////////////////////////////////////ХЕДЕР///////////////////////////////////////////////////////////////////////*/
+
+	.header {       /* ----------Задаем фон хедеру------*/
+		min-height: 523px;
+		background-image: url('../images/banner-bg.jpg');
+	}
+
+	.mobile__nav {
+		display: none;
+	}
+
+	.header__top {            /*--------ХЕДЕР контейнер---------*/
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		margin-top: 25px;
+		padding-left: 15vw;
+		padding-right: 15vw;
+		z-index: 2;
+	}
+
+	.logo {                 /*--------Логотип---------*/
+		min-width: 180px;
+		height: auto;
+		flex-shrink: 1;
+	}
+
+	.nav__list {                   /*--------Навигационное меню---------*/
+		display: flex;       
+		list-style-type: none;
+		gap: 35px;
+
+	}
+
+	.header__text {       /* ----------Задаем свойства заголовку хедера------*/
+		display: flex;
+		color: white;
+		font-family: OpenSans_Bold;
+		font-style: normal;
+		font-size: 2.812rem;
+		margin-top: auto;
+		margin-bottom: auto;
+		padding-left: 25vw;
+		padding-right: 25vw;
+		text-align: center;
+		text-transform: uppercase;
+		z-index: 2;
+	}
+
+/* ////////////////////////////////////////////////////////ТРЕНДЫ///////////////////////////////////////////////////////////////////////*/
+
+	.trends__cards__box {   /*---Делаем карточки Тренды в одну строку-----*/
+		display: flex;
+		gap: 4px;
+	} 
+
+	.trend__card1 {         /*---Задаем ширину карточки Тренды-----*/
+		flex-basis: 25%;
+
+	}
+
+	.trend__card2 {         /*---Задаем ширину карточки Тренды-----*/
+		flex-basis: 25%;
+
+	}
+
+	.trend__card3 {         /*---Задаем ширину карточки Тренды-----*/
+		flex-basis: 25%;
+
+	}
+
+	.trend__card4 {         /*---Задаем ширину карточки Тренды-----*/
+		flex-basis: 25%;
+
+	}
+
+	.trend__card__title {   /*------ТРЕНДЫ заголовок карточки-----*/
+		margin-top: var(--margin3);
+		font-family: OpenSans_Bold ;
+		font-style: normal;
+		font-size: 1.25rem;
+		color: white;
+		text-transform: uppercase;
+		text-align: left;
+	}
+
+/* ////////////////////////////////////////////////////////MAIN///////////////////////////////////////////////////////////////////////*/
+
+	.main {					/*-----Задаем расположение левой и правой колонки в 2 стобца-----*/
+		display: flex;
+		margin-left: var(--margin-left-desk);
+		margin-right: var(--margin-right-desk);
+		padding-left: 15px;
+		padding-right: 15px;
+		justify-content: space-between;
+		margin-top: 50px;
+		gap: 8%;
+	}
+
+	.main__left {         /*-----Задаем ширину левой колонки Main----*/
+		flex:  auto;
+	}
+
+	.main__right {       /*-----Задаем ширину правой колонки Main----*/
+		flex-basis: 20vw;
+		flex-shrink: 0;
+	}
+
+	.article__left {     /*-----Задаем расположение эллементов внутри статьи----*/
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
+
+	.article__left__img {
+		width: 380px;
+		height: auto;
+	}
+
+/* ////////////////////////////////////////////////////////МАГАЗИН/////////////////////////////////////////////////////////////*/
+
+
+	.shop {           /*-----Магазин товаров исправляем оступы*/
+		margin-left: var(--margin-left-desk);
+		margin-right: var(--margin-right-desk);
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.shop__cards {    /*-----Задаем расположение карточек товаров в столбец-----*/
+		display: flex;
+		flex-direction: row;
+		gap:  8%;
+	}
+
+	.shop__card {
+	 width: 33.3%; 
+	 height: auto;
+	}
+
+/* /////////////////////////////////////////////////////ФУТЕР////////////////////////////////////////////////////////////////////*/
+
+	.footer {              /*-----Футер контейнер. Задаем отступы-----*/
+		margin-top: var(--margin6);
+		flex-basis: 100%;
+		margin-left: var(--margin-left-desk) ;
+		margin-right: var(--margin-right-desk);
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+}
+
+
+
+

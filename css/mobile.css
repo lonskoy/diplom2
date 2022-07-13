@@ -1,0 +1,92 @@
+@media (max-width: 640px) {
+
+	/*////////////////////////////////////////////////////РАЗМЕРЫ ШРИФТОВ///////////////////////////////////////////////////////////////*/
+
+	.title1 {                 /*Подчеркнутый заголовок*/
+		font-size: 1rem;
+	}
+
+	.trend__card__title {
+		font-size: 1rem;
+	}
+
+	.article__left__title {
+		font-size: 1rem;
+	}
+
+	.shop__card__title {
+		font-size: 1.062rem ;
+	}
+
+	/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	.header {       /* ----------Задаем фон хедеру------*/
+
+		min-height: 1135px;
+		background-image: url('../images/banner-mobile.jpg');
+}
+
+
+	.header__top {            /*--------ХЕДЕР---------*/
+		width: 100%;
+		padding-left: 12.5vw;
+		padding-right: 12.5vw;
+		z-index: 2;
+	}
+
+
+	.header__nav {          /* ----------Скрываем навигационное меню------*/
+		display: none;
+	}
+
+	.header__text {       /* ----------Задаем свойства заголовку хедера------*/
+		margin-top: 40px;
+		color: white;
+		font-family: OpenSans_Bold;
+		font-style: normal;
+		font-size: 1.625rem;
+		text-align: center;
+		text-transform: uppercase;
+		padding-left: var(--margin-left-mobile);
+		padding-right: var(--margin-right-mobile);
+		z-index: 2;
+	}
+
+	.mobile__nav { /* заполню позже*/
+
+	}
+
+	.trends__cards__box {   /*---Делаем карточки Тренды в столбец-----*/
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+	} 
+
+	.main {					/*-----Задаем расположение левой и правой колонки Main в столбец-----*/
+		display: flex;
+		flex-direction: column;
+		margin-left: var(--margin-left-mobile);
+		margin-right: var(--margin-right-mobile);
+		margin-top: 60px;
+	}
+
+	.shop {           /*-----Магазин товаров контейнер в столбец---*/
+		display: flex;
+		flex-direction: column;
+		margin-left: var(--margin-left-mobile);
+		margin-right: var(--margin-right-mobile);
+	}
+
+	.shop__cards {    /*-----Задаем расположение карточек товаров в столбец-----*/
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+
+	}
+
+	
+}
+
